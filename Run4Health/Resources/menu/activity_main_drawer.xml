@@ -22,11 +22,9 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-
                 android:title="Udostępnij aplikację" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
                 android:title="Zgłoś problem" />
         </menu>
     </item>
