@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="0.0dp"
+        android:layout_marginBottom="0.0dp">
+        
+        <Button
+            android:text="Start"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dp"
+            android:id="@+id/openMap" />
+        <Button
+            android:id="@+id/detailsButton"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dp"
+            android:text="Pogoda" />
+        <Button
+            android:text="Kroki"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dp"
+            android:id="@+id/stepsMeter" />
+        <Button
+            android:text="Tygodniowe osiągnięcia"
+            android:layout_width="match_parent"
+            android:layout_height="90.0dp"
+            android:id="@+id/stats" />
+    </LinearLayout>
 </RelativeLayout>
